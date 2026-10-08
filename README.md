@@ -49,3 +49,5 @@ The website works with system fallbacks (Impact/Arial) until you add them. It us
 - To adjust the laptop editor alignment: `css/style.css` -> `.screen-plane`. The source artwork is 1122 × 1402 and the editor corners are TL (685, 423), TR (979, 460), BR (943, 628), BL (653, 578). Recalculate the projective matrix if replacing the artwork.
 
 No build dependencies. No external CDNs. No third-party tracking. All asset paths are relative.
+
+Deployment update.
