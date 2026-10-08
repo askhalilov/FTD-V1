@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#050a0d" />
+  <meta name="description" content="FTD.LAB — iGaming CPA Network. Coming soon." />
+  <title>FTD.LAB — Coming Soon</title>
+  <script>
+    document.documentElement.classList.add('is-loading');
+    // Keep the page usable if the deferred script or an asset fails to load.
+    window.setTimeout(function () {
+      document.documentElement.classList.remove('is-loading');
+      document.documentElement.classList.add('is-ready');
+    }, 4000);
+  </script>
+  <link rel="preload" as="image" href="assets/mascot-developer.webp" type="image/webp" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css?v=4" />
+  <script src="js/main.js?v=4" defer></script>
+</head>
+<body>
+  <div class="page-loader" aria-hidden="true">
+    <img src="assets/ftdlab-wordmark.webp" width="2048" height="682" alt="" />
+    <span class="loader-track"><span></span></span>
+  </div>
+  <div class="site" id="top">
+    <div class="edge-line edge-line-left" aria-hidden="true"></div>
+    <div class="edge-line edge-line-right" aria-hidden="true"></div>
+
+    <header class="site-header layout-container">
+      <a class="brand" href="#top" aria-label="FTD.LAB — Home">
+        <img src="assets/ftdlab-wordmark.webp" alt="FTD.lab" width="2048" height="682" />
+      </a>
+
+      <div class="header-right">
+        <div class="lang-switch" role="group" aria-label="Language switcher">
+          <span class="lang-pill" aria-hidden="true"></span>
+          <button class="lang-btn is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button class="lang-btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
+        </div>
+
+        <div class="header-tag" aria-label="Website in progress">
+          <span class="status-pulse"></span><span data-i18n="statusTag">WEBSITE IN PROGRESS</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner layout-container">
+        <div class="hero-content">
+          <div class="eyebrow entrance delay-1">
+            <span class="eyebrow-line"></span>
+            <span data-i18n="eyebrow">THE NEXT CHAPTER IS LOADING</span>
+            <span class="eyebrow-serial">// 2026</span>
+          </div>
+
+          <h1 class="headline" id="hero-title" aria-label="Coming soon">
+            <span class="headline-white entrance delay-2">COMING</span>
+            <span class="headline-cyan entrance delay-3">SOON<span class="headline-dot">.</span></span>
+          </h1>
+
+          <div class="hero-description entrance delay-4">
+            <p class="description-upper" data-i18n="subheading">BUILDING SOMETHING BOLD</p>
+            <p class="description-lower" data-i18n="subtext">New website. Same vision. More to come.</p>
+          </div>
+
+          <a class="cta entrance delay-5" href="https://t.me/artemftdlab" target="_blank" rel="noopener noreferrer" data-i18n="cta">
+            Связаться с нами
+          </a>
+        </div>
+
+        <div class="hero-scene" aria-label="FTD.LAB mascot coding at a workstation" role="img">
+          <div class="scene-image" aria-hidden="true">
+            <!-- Artwork and editor share the original asset coordinates and scale as one scene. -->
+            <svg class="scene-art" xmlns="http://www.w3.org/2000/svg" width="1122" height="1402" viewBox="0 0 1122 1402" aria-hidden="true" focusable="false">
+              <image href="assets/mascot-developer.webp" width="1122" height="1402" />
+              <foreignObject x="0" y="0" width="1122" height="1402" class="screen-projection">
+                <div xmlns="http://www.w3.org/1999/xhtml" class="screen-plane">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="288" height="178" viewBox="0 0 288 178" class="screen-editor">
+                    <defs>
+                      <linearGradient id="screenGradient" x1="0" x2="1" y1="0" y2="1">
+                        <stop offset="0%" stop-color="#090f14" />
+                        <stop offset="100%" stop-color="#080e13" />
+                      </linearGradient>
+                      <clipPath id="screenClip">
+                        <rect width="288" height="178" />
+                      </clipPath>
+                    </defs>
+                    <!-- Replace only baked code; the native title, icons and bezel stay visible. -->
+                    <g clip-path="url(#screenClip)">
+                      <rect width="288" height="178" fill="url(#screenGradient)" />
+                      <rect width="27" height="178" fill="#10161b" />
+                      <g id="code-lines" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13.2" font-weight="600"></g>
+                      <rect id="code-cursor" x="36" y="15" width="6.4" height="14.2" fill="#00d9ef" />
+                      <text x="277" y="166" text-anchor="end" class="screen-caption" fill="#00d9ef" opacity=".72" id="editor-status">TYPING...</text>
+                    </g>
+                  </svg>
+                </div>
+              </foreignObject>
+            </svg>
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <a class="scroll-hint" href="#in-progress" aria-label="Scroll to explore">
+            <span class="scroll-mouse"><span></span></span>
+            <span data-i18n="scroll">SCROLL<br />TO EXPLORE</span>
+          </a>
+          <div class="hero-progress" aria-label="Current stage: building">
+            <span class="progress-active"></span><span></span><span></span>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="afterglow" id="in-progress" aria-labelledby="afterglow-title">
+        <div class="afterglow-inner layout-container">
+          <div class="afterglow-kicker" data-reveal><span class="status-pulse"></span> <span data-i18n="sectionStatus">WORK IN PROGRESS / 002</span></div>
+          <h2 id="afterglow-title" data-reveal><span data-i18n="sectionTitle1">GREAT THINGS</span><br /><span data-i18n="sectionTitle2">TAKE BUILDING.</span></h2>
+          <div class="afterglow-bottom" data-reveal>
+            <p data-i18n="sectionText">Our next digital chapter is on the way.<br />Until then, we're one message away.</p>
+            <a href="https://t.me/artemftdlab" target="_blank" rel="noopener noreferrer" data-i18n="sectionCta">CONTACT US</a>
+          </div>
+          <div class="afterglow-rule"></div>
+          <div class="afterglow-footer"><span>FTD.LAB © 2026</span><span data-i18n="footerTag">PERFORMANCE / CONNECTION / GROWTH</span><a href="#top" data-i18n="backTop">BACK TO TOP ↑</a></div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
